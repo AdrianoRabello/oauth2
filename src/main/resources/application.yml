@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+
+spring:
+  security:
+    oauth2:
+      client:
+        clientId: 5577ce8c-1bfd-45eb-8d94-4f99b5b94bb1
+        clientSecret: cv1vdWd5ZWx@X@A89Y79zMWEMDMQxT
+        accessTokenUri: https://acessocidadao.es.gov.br/is/connect/token
+        userAuthorizationUri: https://acessocidadao.es.gov.br/is/connect/authorize
+        tokenName: oauth_token
+        authenticationScheme: query
+        clientAuthenticationScheme: form
+        scope: api-sistemateste
+      resource:
+        userInfoUri: https://acessocidadao.es.gov.br/is/connect/userinfo
